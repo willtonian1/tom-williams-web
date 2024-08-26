@@ -21,8 +21,8 @@ function App() {
   return (
     <div>
       <div class="w-screen h-screen flex items-center h-screen absolute" style={bgStyle}>
-        <div class="flex-1 bg-[rgb(177,227,1)] h-[100%]"></div>
-        <div class="flex-1 bg-[rgb(0,179,130)] h-[100%]"></div>
+        <div class="flex-1 bg-white h-[100%]"></div>
+        <div class="flex-1 bg-[rgb(245,245,247)] h-[100%]"></div>
       </div>
 
     <div class="h-12"> </div>
