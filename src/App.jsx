@@ -31,12 +31,10 @@ function App() {
     <Wrapper />
     </div>
 
-
     <div>
-    
-    <About/>
-
+      <About/>
     </div>
+
     </div>
   )
 }
