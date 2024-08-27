@@ -26,7 +26,7 @@ const About = () => {
           <br />
           <p class="text-sm mx-auto p-3" style={textStyle}>Hi, I'm Tom. I have spent the last 7 years of my life slowly progressing through the world of computer science. Having started with Python, I have since dabbled in all sorts of languages including Arduino for some sketchy mechatronics, Javascript for websites as such and others which have been long forgotten.</p>
           <p class="text-sm mx-auto p-3" style={textStyle}>Aside from programming, I spend the majority of my time playing rugby for my local club and tennis where the weather allows.</p>
-          <img src="src\public\static\images\rugby.jpg" class="p-5"></img>
+          <img src="public\static\images\rugby.jpg" class="p-5"></img>
         </div>      
       )
     }
