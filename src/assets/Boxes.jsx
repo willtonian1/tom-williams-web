@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Rugby from "public/static/Images/rugby.jpg"
-import Ski from "public/static/Images/ski.jpg"
+import Ski from "src/Images/ski.jpg"
 
 import {isMobile} from 'react-device-detect';
 
@@ -25,7 +24,7 @@ const BoxTwo = () => {
       
       <div class="h-[100%] w-full flex flex-col absolute inset-0 items-center">
         <h1 class="mx-auto font-bold mt-10" style={titleStyle}>Tom Williams</h1>
-        <img src="static\images\ski.jpg" class="h-[50%] mx-auto flex rounded-full mt-5"></img>
+        <img src={Ski} class="h-[50%] mx-auto flex rounded-full mt-5"/>
         <br />
         <p class="text-black" style={textStyle}>Computer Science</p>
         <p class="text-black" style={textStyle}>University of Bath</p>
@@ -44,7 +43,7 @@ const BoxTwo = () => {
         <br />
         <div class="mt-10" style={titleStyle}>Tom Williams</div>
         <br />
-        <img src="static\images\ski.jpg" class="h-[40%] mx-auto flex rounded-full"></img>
+        <img src={Ski} class="h-[40%] mx-auto flex rounded-full"></img>
         <br />
         <p class="text-black" style={textStyle}>Computer Science at University of Bath</p>
 
