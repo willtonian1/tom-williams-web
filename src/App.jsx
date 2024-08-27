@@ -20,10 +20,10 @@ function App() {
   }
 
   return (
-    <div>
-      <div class="w-[100%] h-screen flex items-center h-screen absolute" style={bgStyle}>
-        <div class="flex-1 bg-white h-[100%]"></div>
-        <div class="flex-1 bg-[rgb(245,245,247)] h-[100%]"></div>
+    <div class="min-h-screen">
+      <div class="w-[100%] h-[300%] flex items-center absolute" style={bgStyle}>
+        <div class="flex-1 bg-white h-full"></div>
+        <div class="flex-1 bg-[rgb(245,245,247)] h-full"></div>
       </div>
 
     <div class="h-12"> </div>
@@ -36,8 +36,8 @@ function App() {
       <About/>
     </div>
 
-    <div id="projects" class="mx-auto w-[80%] z-20 h-96 mt-12" style={mainStyle}>
-    <Projects />
+    <div id="projects" class="mx-auto w-[80%] z-20 mt-12">
+      <Projects />
     </div>
 
     </div>

@@ -13,8 +13,10 @@ const Header = () => {
 
         <div class="flex space-x-4">
         <a href="#about" class="hover:text-gray-400">About</a>
-        <a href="socials" class="hover:text-gray-400">Socials</a>
         <a href="#projects" class="hover:text-gray-400">Projects</a>
+        <a href="socials" class="hover:text-gray-400 bg-[rgb(0,122,255)] rounded-xl pl-2 pr-2">Socials</a>
+
+
         </div>
 
       </div>
