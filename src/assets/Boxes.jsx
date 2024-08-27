@@ -22,7 +22,7 @@ const BoxTwo = () => {
       
       <div class="h-[100%] w-full flex flex-col absolute inset-0 items-center">
         <h1 class="mx-auto font-bold mt-10" style={titleStyle}>Tom Williams</h1>
-        <img src="public\static\images\ski.jpg" class="h-[50%] mx-auto flex rounded-full mt-5"></img>
+        <img src="static\images\ski.jpg" class="h-[50%] mx-auto flex rounded-full mt-5"></img>
         <br />
         <p class="text-black" style={textStyle}>Computer Science</p>
         <p class="text-black" style={textStyle}>University of Bath</p>
@@ -41,7 +41,7 @@ const BoxTwo = () => {
         <br />
         <div class="mt-10" style={titleStyle}>Tom Williams</div>
         <br />
-        <img src="public\static\images\ski.jpg" class="h-[40%] mx-auto flex rounded-full"></img>
+        <img src="static\images\ski.jpg" class="h-[40%] mx-auto flex rounded-full"></img>
         <br />
         <p class="text-black" style={textStyle}>Computer Science at University of Bath</p>
 
