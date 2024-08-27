@@ -4,7 +4,7 @@ import Wrapper from './assets/Wrapper'; // Assuming Wrapper.js is in the same di
 import About from './assets/About';
 import './App.css'
 import Header from './assets/Header'
-
+import Projects from './assets/Projects'
 function App() {
 
   const mainStyle = { 
@@ -33,6 +33,10 @@ function App() {
     
     <div class="mx-auto w-[80%] z-20 h-[50%] mt-12" style={mainStyle}>
       <About/>
+    </div>
+
+    <div class="mx-auto w-[80%] z-20 h-[50%] mt-12" style={mainStyle}>
+    <Projects></Projects>
     </div>
 
     </div>
