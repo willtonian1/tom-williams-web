@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Ski from "src/Images/ski.jpg"
+import Ski from "Images/ski.jpg"
 
 import {isMobile} from 'react-device-detect';
 
