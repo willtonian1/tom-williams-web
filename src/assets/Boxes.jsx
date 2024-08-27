@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Rugby from "public/static/Images/rugby.jpg"
+import Ski from "public/static/Images/ski.jpg"
+
 import {isMobile} from 'react-device-detect';
 
 const BoxTwo = () => {
