@@ -30,8 +30,8 @@ function App() {
     <Header/>
     <Wrapper />
     </div>
-
-    <div>
+    
+    <div class="mx-auto w-[80%] z-20 h-[50%] mt-12" style={mainStyle}>
       <About/>
     </div>
 

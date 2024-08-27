@@ -12,15 +12,23 @@ const BoxTwo = () => {
 
     };
 
+    const textStyle = {
+      fontFamily: 'Raleway',
+      color: 'black',
+    }
 
   if(isMobile) {
     return (
       
-      <div class="h-[100%] w-full flex flex-col absolute inset-0 items-center justify-center">
-        <div class="flex bg-white h-[50%] w-full"></div>
-        <div class="flex bg-[rgb(245,245,247)] h-[50%] w-full"></div>
-        <h1 class="absolute mx-auto top-10 font-bold" style={titleStyle}>Tom Williams</h1>
-        <img src="src\assets\ski.jpg" class="h-[60%] flex mx-auto absolute mt-12"></img>
+      <div class="h-[100%] w-full flex flex-col absolute inset-0 items-center">
+        <h1 class="mx-auto font-bold mt-10" style={titleStyle}>Tom Williams</h1>
+        <img src="src\assets\ski.jpg" class="h-[50%] mx-auto flex rounded-full mt-5"></img>
+        <br />
+        <p class="text-black" style={textStyle}>Computer Science</p>
+        <p class="text-black" style={textStyle}>University of Bath</p>
+
+
+
       </div>
     )
   }
@@ -30,11 +38,21 @@ const BoxTwo = () => {
     <div className="bg-black text-white w-[100%] h-[100%] flex">
    
         <div class="bg-white h-[100%] flex-1 w-[50%]">
+        <br />
         <div class="mt-10" style={titleStyle}>Tom Williams</div>
+        <br />
+        <img src="src\assets\ski.jpg" class="h-[40%] mx-auto flex rounded-full"></img>
+        <br />
+        <p class="text-black" style={textStyle}>Computer Science at University of Bath</p>
+
+
         </div>
 
-        <div class="bg-[rgb(245,245,247)] w-[50%] flex-1 h-[100%] flex justify-center items-center">
-          <img src="src\assets\ski.jpg" class="h-[80%] mx-auto flex"></img>
+        <div class="bg-[rgb(245,245,247)] w-[50%] flex-1 h-[100%]">
+        <br />
+        <h1 style={titleStyle} class="mt-10">About Me</h1>
+        <p style={textStyle} class="text-sm p-3">Hi, I'm Tom. I have spent the last 7 years of my life slowly progressing in the world of computer science. Having started with Python back in time, I have since dabbled in all sorts of languages including Arduino for some sketchy mechatronics, Javascript for websites as such and some which have been long forgotten.</p>
+        <p style={textStyle} class="text-sm p-3">Aside from programming, I spend the majority of my time playing rugby for my local club and tennis where the weather allows.</p>
         </div>
     
     </div>

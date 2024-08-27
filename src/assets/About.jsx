@@ -1,18 +1,39 @@
 import React from 'react';
+import {isMobile} from 'react-device-detect';
 
 const About = () => {
 
-
-    const aboutStyle = {
-
-      boxShadow: '0 8px 16px rgba(0, 0, 0, 0.3)',
+    const titleStyle = {
       fontFamily: 'Raleway',
-      fontWeight: 300,
+      fontWeight: 500,
+      fontSize: '1.5rem',
+      lineHeight: '1.2',
+      color: 'black',
+
+  };
+
+  const textStyle = {
+    fontFamily: 'Raleway',
+    color: 'black',
+  }
+
+
+
+    if(isMobile) {
+      return (
+        <div className="relative flex-col items-center h-[100%] p-0 z-20">
+          <h1 style={titleStyle} class="mt-12 mx-auto">About Me</h1>
+          <br />
+          <p class="text-sm mx-auto p-3" style={textStyle}>Hi, I'm Tom. I have spent the last 7 years of my life slowly progressing in the world of computer science. Having started with Python back in time, I have since dabbled in all sorts of languages including Arduino for some sketchy mechatronics, Javascript for websites as such and some which have been long forgotten.</p>
+          <p class="text-sm mx-auto p-3" style={textStyle}>Aside from programming, I spend the majority of my time playing rugby for my local club and tennis where the weather allows.</p>
+          <img src="src\assets\rugby.jpg" class="p-5"></img>
+        </div>      
+      )
     }
+
+
     return (
-      <div className="relative flex items-center h-32 bg-white mt-12 w-[80%] mx-auto" style = {aboutStyle} >
-        <p>Hi, my name is Tom. I play rugby, tennis, and I code...</p>
-      </div>
+      <div class="h-[0%] w-[0%]"></div>
     );
   };
   
