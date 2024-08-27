@@ -12,9 +12,9 @@ const Header = () => {
         <a class="inline text-lg hover:font-bold">TW</a>
 
         <div class="flex space-x-4">
-        <a href="about" class="hover:text-gray-400">About</a>
+        <a href="#about" class="hover:text-gray-400">About</a>
         <a href="socials" class="hover:text-gray-400">Socials</a>
-        <a href="" class="hover:text-gray-400">Projects</a>
+        <a href="#projects" class="hover:text-gray-400">Projects</a>
         </div>
 
       </div>

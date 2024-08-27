@@ -21,7 +21,7 @@ const About = () => {
 
     if(isMobile) {
       return (
-        <div className="relative flex-col items-center h-[100%] p-0 z-20">
+        <div id="about" className="relative flex-col items-center h-[100%] p-0 z-20">
           <h1 style={titleStyle} class="mt-12 mx-auto">About Me</h1>
           <br />
           <p class="text-sm mx-auto p-3" style={textStyle}>Hi, I'm Tom. I have spent the last 7 years of my life slowly progressing through the world of computer science. Having started with Python, I have since dabbled in all sorts of languages including Arduino for some sketchy mechatronics, Javascript for websites as such and others which have been long forgotten.</p>

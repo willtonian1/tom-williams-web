@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <div class="w-screen h-screen flex items-center h-screen absolute" style={bgStyle}>
+      <div class="w-[100%] h-screen flex items-center h-screen absolute" style={bgStyle}>
         <div class="flex-1 bg-white h-[100%]"></div>
         <div class="flex-1 bg-[rgb(245,245,247)] h-[100%]"></div>
       </div>
@@ -36,7 +36,7 @@ function App() {
       <About/>
     </div>
 
-    <div class="mx-auto w-[80%] z-20 h-[50%] mt-12" style={mainStyle}>
+    <div id="projects" class="mx-auto w-[80%] z-20 h-96 mt-12" style={mainStyle}>
     <Projects />
     </div>
 
