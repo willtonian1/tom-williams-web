@@ -1,6 +1,6 @@
 import React from 'react';
 import {isMobile} from 'react-device-detect';
-import Rugby from "src/Images/rugby.jpg"
+import Rugby from "./rugby.jpg"
 
 const About = () => {
 
