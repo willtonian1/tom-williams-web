@@ -4,19 +4,8 @@ import GitHub from "./github.svg"
 import LinkedIn from "./linkedin.svg"
 import Insta from "./insta.svg"
 import CV from "./cv.png"
-
+import CVPDF from "./CV.pdf"
 const Socials = () => {
-
-    const onButtonClick = () => {
-        const pdfURL = "./CV.pdf"
-        const link = document.createElement("a");
-        link.href = pdfUrl;
-        link.download = "CVTW.pdf"; // specify the filename
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    }
-
 
 
 return(
@@ -30,9 +19,9 @@ return(
         <div class="w-auto inline-block mt-1"><img src={GitHub} class="flex"></img></div>
         </a>
 
-        <button class="inline w-[20%]" onClick={onButtonClick}>
+        <a class="inline w-[20%]" href={CVPDF} target="_blank">
         <div class="w-auto inline-block mt-1"><img src={CV} class="flex"></img></div>
-        </button>
+        </a>
 
 
         <a class="inline w-[20%]">

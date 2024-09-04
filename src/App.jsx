@@ -8,7 +8,6 @@ import Projects from './assets/Projects'
 import Title from './assets/Title'
 import Socials from './assets/Socials'
 
-
 function App() {
 
   const mainStyle = { 
