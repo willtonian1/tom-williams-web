@@ -115,7 +115,7 @@ const Projects = () => {
                 <div class="w-[100%] h-64 bg-white">
 
                 <br />
-                <h1 style={textStyle} class="text-white font-bold bg-[rgb(0,122,255)]">F1 Draft (retired)</h1>
+                <h1 style={textStyle} class="text-white font-bold bg-[rgb(0,122,255)] p-1">F1 Draft (retired)</h1>
                 <div class="h-[60%]">
                     
                     <p style={textStyle2} class="text-xs mt-2 font-extralight">JavaScript, Python, Flask, MongoDB</p>
