@@ -6,7 +6,7 @@ import './App.css'
 import Header from './assets/Header'
 import Projects from './assets/Projects'
 import Title from './assets/Title'
-import Socials from './assets/Title'
+import Socials from './assets/Socials'
 
 
 function App() {
@@ -44,8 +44,10 @@ function App() {
     <div id="projects" class="mx-auto w-[90%] z-20">
       <Projects />
     </div>
-
-    <Socials />
+    
+    <div class="mx-auto w-[90%] z-0 h-12 mt-12">
+      <Socials />
+    </div>
 
     </div>
   )
