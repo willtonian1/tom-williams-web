@@ -1,6 +1,6 @@
 import React from 'react';
 import {isMobile} from 'react-device-detect';
-import ComingSoon from 'ComingSoon.pdf'
+import ComingSoon from './ComingSoon.pdf'
 const Projects = () => {
 
     const Projects = {
@@ -45,7 +45,7 @@ const Projects = () => {
                         <p style={textStyle} class="text-sm mt-5 pr-4 pl-4">Over the course of 6 months I worked on a solo project based around the problem surrounding organising coach networks, and specifically allocating students based on their locations to specific school routes, primarily using my own custom genetic algorithm.</p>
 
                     </div>
-                    <a href={ComingSoon} class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+                    <a href={ComingSoon} target="_blank" class="flex z-50 text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
 
                     </div>
 
@@ -69,7 +69,7 @@ const Projects = () => {
                         <p style={textStyle} class="text-sm mt-5 pr-4 pl-4">Due to my passion for Formula 1, I decided to create a real-time voting web application for F1 cars. The full-stack application used a MongoDB database, a Python Flask backend, and JavaScript with Axios on the frontent to access stored data.</p>
 
                     </div>
-                    <a href={ComingSoon} class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+                    <a href={ComingSoon} target="_blank" class="flex z-50 text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
 
                     </div>
                 </div>
@@ -98,7 +98,7 @@ const Projects = () => {
                             <p style={textStyle} class="text-sm mt-5 pr-4 pl-4">Over the course of 6 months I worked on a solo project based around the problem surrounding organising coach networks, and specifically allocating students based on their locations to specific school routes, primarily using my own custom genetic algorithm.</p>
 
                         </div>
-                        <a href={ComingSoon} class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+                        <a href={ComingSoon} target="_blank" class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
 
                         </div>
 
@@ -117,7 +117,7 @@ const Projects = () => {
                     <p style={textStyle2} class="text-sm mt-5 pr-4 pl-4 ">Due to my passion for Formula 1, I decided to create a real-time voting web application for F1 cars. The full-stack application used a MongoDB database, a Python Flask backend, and JavaScript with Axios on the frontent to access stored data.</p>
 
                 </div>
-                <a href={ComingSoon} class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+                <a href={ComingSoon} target="_blank" class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
 
                 </div>
            </div>
