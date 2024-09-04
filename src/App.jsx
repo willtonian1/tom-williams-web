@@ -40,7 +40,7 @@ function App() {
 
     <Title text="Projects" />
 
-    <div id="projects" class="mx-auto w-[90%] z-20">
+    <div id="projects" class="mx-auto w-[90%]">
       <Projects />
     </div>
     
