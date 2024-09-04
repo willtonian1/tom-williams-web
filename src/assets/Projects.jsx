@@ -16,26 +16,65 @@ const Projects = () => {
     const textStyle = {
         fontFamily: 'Raleway',
         fontWeight: 500,
-        lineHeight: 1.2
+        lineHeight: 1.2,
+        color: 'white'
+    }
+    
+    const textStyle2 = {
+        fontFamily: 'Raleway',
+        fontWeight: 500,
+        lineHeight: 1.2,
+        color: 'black'
     }
 
+    const boxStyle={
+        boxShadow: '0 8px 16px rgba(0, 0, 0, 0.3)'
+    }
 
     if(isMobile) {
         return (
             <div class="w-[100%] flex-col">
-                <div class="h-64 w-[100%] bg-black">
+                <div class="h-64 w-[100%] relative">
+                    <div class="absolute top-0 left-0 w-[8%] h-64 -z-10 bg-[rgb(0,122,255)]"></div>
+                    <div class="absolute top-0 right-0 w-[92%] h-64 -z-10 bg-black">
                     <br />
-                    <h1 style={textStyle} class="text-white">Genetic Algorithm Routing</h1>
-                    <div class="h-[60%]"></div>
-                    <a href="" class="flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>Click Here!</a>
+                    <h1 style={textStyle} class="text-white font-bold">Genetic Algorithm Routing</h1>
+                    <div class="h-[60%]">
+                        
+                        <p style={textStyle} class="text-xs mt-2 font-extralight">Python</p>
+                        <p style={textStyle} class="text-sm mt-5 pr-4 pl-4">Over the course of 6 months I worked on a solo project based around the problem surrounding organising coach networks, and specifically allocating students based on their locations to specific school routes, primarily using my own custom genetic algorithm.</p>
+
+                    </div>
+                    <a href="" class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+
+                    </div>
+
+                    
+
+                    
 
                 </div>
+
+
                 <br />
-                <div class="h-64 w-[100%] bg-[rgb(0,122,255)]"></div>
+                <div class="h-64 w-[100%] relative">
+                <div class="absolute top-0 left-0 w-[8%] h-64 -z-10 bg-[rgb(0,122,255)]"></div>
+
+                    <div class="absolute top-0 right-0 w-[92%] h-64 -z-10 bg-black">
+                    <br />
+                    <h1 style={textStyle} class="text-white font-bold">F1 Draft (retired)</h1>
+                    <div class="h-[60%]">
+                        
+                        <p style={textStyle} class="text-xs mt-2 font-extralight">JavaScript, Python, Flask, MongoDB</p>
+                        <p style={textStyle} class="text-sm mt-auto pr-4 pl-4">Due to my passion for Formula 1, I decided to create a real-time voting web application for F1 cars. The full-stack application used a MongoDB database, a Python Flask backend, and JavaScript with Axios on the frontent to access stored data.</p>
+
+                    </div>
+                    <a href="" class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+
+                    </div>
+                </div>
                 <br />
-                <div class="h-64 w-[100%] bg-black"></div>
-                <br />
-                <div class="h-64 w-[100%] bg-[rgb(0,122,255)]"></div>
+                
 
             </div>
 
@@ -48,19 +87,42 @@ const Projects = () => {
         <div class="h-[100%] w-[100%] flex-col">
 
         <div class="flex items-center">
-            <div class="flex-1 bg-[rgb(245,245,247)] h-64 m-2"></div>
-            <div class="flex-1 flex-col bg-black h-64 m-2">
-                <h1 class="text-white mt-2" style={textStyle}>Genetic</h1>
-                <h1 class="text-white" style={textStyle}>Algorithm</h1>
-                <h1 class="text-white" style={textStyle}>Routing</h1>
-                <a href="" class="flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>Click Here!</a>
+            <div style={boxStyle} class="flex-1 h-64 m-2 relative">
+
+                        <div class="absolute top-0 right-0 w-[100%] h-64 -z-10 bg-black">
+                        <br />
+                        <h1 style={textStyle} class="text-white font-bold bg-[rgb(0,122,255)] p-1">Genetic Algorithm Routing</h1>
+                        <div class="h-[60%]">
+                            
+                            <p style={textStyle} class="text-xs mt-2 font-extralight">Python</p>
+                            <p style={textStyle} class="text-sm mt-5 pr-4 pl-4">Over the course of 6 months I worked on a solo project based around the problem surrounding organising coach networks, and specifically allocating students based on their locations to specific school routes, primarily using my own custom genetic algorithm.</p>
+
+                        </div>
+                        <a href="" class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+
+                        </div>
+
             </div>
+            
+            
+            <div style={boxStyle} class="flex-1 flex-col h-64 m-2 relative">
+
+                <div class="absolute top-0 right-0 w-[100%] h-64 -z-10 bg-white">
+
+                <br />
+                <h1 style={textStyle} class="text-white font-bold bg-[rgb(0,122,255)]">F1 Draft (retired)</h1>
+                <div class="h-[60%]">
+                    
+                    <p style={textStyle2} class="text-xs mt-2 font-extralight">JavaScript, Python, Flask, MongoDB</p>
+                    <p style={textStyle2} class="text-sm mt-5 pr-4 pl-4 ">Due to my passion for Formula 1, I decided to create a real-time voting web application for F1 cars. The full-stack application used a MongoDB database, a Python Flask backend, and JavaScript with Axios on the frontent to access stored data.</p>
+
+                </div>
+                <a href="" class="z-flex text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
+
+                </div>
+           </div>
         </div>
 
-        <div class="flex items-center">
-            <div class="flex-1 bg-black h-64 m-2"></div>
-            <div class="flex-1 bg-[rgb(0,122,255)] h-64 m-2"></div>
-        </div>
         
 
         </div>

@@ -5,6 +5,9 @@ import About from './assets/About';
 import './App.css'
 import Header from './assets/Header'
 import Projects from './assets/Projects'
+import Title from './assets/Title'
+import Socials from './assets/Title'
+
 
 function App() {
 
@@ -27,18 +30,22 @@ function App() {
       </div>
 
     <div class="h-12"> </div>
-    <div class="mx-auto w-[80%] z-20 h-[50%]" style={mainStyle}>
+    <div class="mx-auto w-[90%] z-20 h-[50%]" style={mainStyle}>
     <Header/>
     <Wrapper />
     </div>
     
-    <div class="mx-auto w-[80%] z-20 h-[50%] mt-12" style={mainStyle}>
+    <div class="mx-auto w-[90%] z-20 h-[50%] mt-12" style={mainStyle}>
       <About/>
     </div>
 
-    <div id="projects" class="mx-auto w-[80%] z-20 mt-12">
+    <Title text="Projects" />
+
+    <div id="projects" class="mx-auto w-[90%] z-20">
       <Projects />
     </div>
+
+    <Socials />
 
     </div>
   )
