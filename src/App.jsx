@@ -29,7 +29,7 @@ function App() {
       </div>
 
     <div class="h-12"> </div>
-    <div class="mx-auto w-[90%] z-20 h-[50%]" style={mainStyle}>
+    <div id="about" class="mx-auto w-[90%] z-20 h-[50%]" style={mainStyle}>
     <Header/>
     <Wrapper />
     </div>
@@ -44,7 +44,7 @@ function App() {
       <Projects />
     </div>
     
-    <div class="mx-auto z-0 h-12 mt-12">
+    <div id="socials" class="mx-auto z-0 h-12 mt-12">
       <Socials />
     </div>
 
