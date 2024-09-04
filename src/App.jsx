@@ -44,7 +44,7 @@ function App() {
       <Projects />
     </div>
     
-    <div class="mx-auto w-[90%] z-0 h-12 mt-12">
+    <div class="mx-auto z-0 h-12 mt-12">
       <Socials />
     </div>
 
