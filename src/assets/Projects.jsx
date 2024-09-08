@@ -1,6 +1,5 @@
 import React from 'react';
 import {isMobile} from 'react-device-detect';
-import ComingSoon from './ComingSoon.pdf'
 import Coach from './coachrouting.pdf'
 import f1 from './f1draft.pdf'
 
