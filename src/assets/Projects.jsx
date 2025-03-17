@@ -2,7 +2,7 @@ import React from 'react';
 import {isMobile} from 'react-device-detect';
 import Coach from './coachrouting.pdf'
 import f1 from './f1draft.pdf'
-
+import DDominance from './Redefining_Dominance_Tom_Williams.pdf'
 
 const Projects = () => {
 
@@ -59,6 +59,34 @@ const Projects = () => {
 
 
                 <br />
+                                
+                <div class="h-64 w-[100%] relative">
+                <div class="absolute top-0 left-0 w-[8%] h-64 -z-10 bg-[rgb(255,198,39)]"></div>
+
+                    <div class="absolute top-0 right-0 w-[92%] h-64 -z-10 bg-black">
+                    
+
+                    </div>
+
+                    <div class="ml-[8%]">
+                        <br />
+                        <h1 style={textStyle} class="text-white font-bold">Redefining Dominance - Data Science</h1>
+                        <div class="h-[60%]">
+                            
+                            <p style={textStyle} class="text-xs mt-2 font-extralight">Python, Numpy, MatPlotLib</p>
+                            <p style={textStyle} class="text-sm mt-5 pr-4 pl-4">This article highlights the achievements and gives an overview of the style and success of NBA superstar Nikola Jokic. The report includes statistical analysis and modelling, machine learning techniques and more.</p>
+
+                        </div>
+
+                        <a href={DDominance} target="_blank" class="flex w-20 z-50 text-sm p-1 mx-auto mt-4 w-[60%] text-white bg-[rgb(255,198,39)] rounded-2xl" style={ButtonStyle}>Read Article</a>
+                    </div>
+
+                    
+
+                </div>
+
+                <br />
+
                 <div class="h-64 w-[100%] relative">
                 <div class="absolute top-0 left-0 w-[8%] h-64 -z-10 bg-[rgb(0,122,255)]"></div>
 
@@ -81,8 +109,6 @@ const Projects = () => {
                     </div>
 
                 </div>
-                <br />
-                
 
             </div>
 
@@ -112,22 +138,45 @@ const Projects = () => {
                         </div>
 
             </div>
-            
+
             <div style={boxStyle} class="flex-1 flex-col h-64 m-2">
 
                 <div class="w-[100%] h-64 bg-white">
 
                 <br />
+                <h1 style={textStyle} class="text-white font-bold bg-[rgb(255,198,39)] p-1">Redefining Dominance - Data Science</h1>
+                <div class="h-[60%]">
+                    
+                    <p style={textStyle2} class="text-xs mt-2 font-extralight">Python, Numpy, MatPlotLib</p>
+                    <p style={textStyle2} class="text-sm mt-5 pr-4 pl-4 ">This article highlights the achievements and gives an overview of the style and success of NBA superstar Nikola Jokic. The report includes statistical analysis and modelling, machine learning techniques and more.</p>
+                    <a href={DDominance} target="_blank" class="flex z-50 text-sm p-1 mx-auto mt-6 w-20 text-white bg-[rgb(255,198,39)] rounded-2xl" style={ButtonStyle}>Read Article</a>
+
+                </div>
+                </div>
+           </div>
+           
+            
+
+
+            <div style={boxStyle} class="flex-1 flex-col h-64 m-2">
+
+                <div class="w-[100%] h-64 bg-black">
+
+                <br />
                 <h1 style={textStyle} class="text-white font-bold bg-[rgb(0,122,255)] p-1">F1 Draft (retired)</h1>
                 <div class="h-[60%]">
                     
-                    <p style={textStyle2} class="text-xs mt-2 font-extralight">JavaScript, Python, Flask, MongoDB</p>
-                    <p style={textStyle2} class="text-sm mt-5 pr-4 pl-4 ">Due to my passion for Formula 1, I decided to create a real-time voting web application for F1 cars. The full-stack application used a MongoDB database, a Python Flask backend, and JavaScript with Axios on the frontent to access stored data.</p>
+                    <p style={textStyle} class="text-xs mt-2 font-extralight">JavaScript, Python, Flask, MongoDB</p>
+                    <p style={textStyle} class="text-sm mt-5 pr-4 pl-4 ">Due to my passion for Formula 1, I decided to create a real-time voting web application for F1 cars. The full-stack application used a MongoDB database, a Python Flask backend, and JavaScript with Axios on the frontent to access stored data.</p>
                     <a href={f1} target="_blank" class="flex z-50 text-sm p-1 mx-auto mt-6 w-20 text-white bg-[rgb(0,122,255)] rounded-2xl" style={ButtonStyle}>In-Depth</a>
 
                 </div>
                 </div>
            </div>
+
+           
+
+
         </div>
 
         

@@ -28,19 +28,19 @@ function App() {
         <div class="flex-1 bg-[rgb(245,245,247)] h-full"></div>
       </div>
 
-    <div class="h-12"> </div>
-    <div id="about" class="mx-auto w-[90%] z-20 h-[50%]" style={mainStyle}>
+    <div class="h-6"> </div>
+    <div id="about" class="mx-auto w-[92%] z-20 h-[50%]" style={mainStyle}>
     <Header/>
     <Wrapper />
     </div>
     
-    <div class="mx-auto w-[90%] z-20 h-[50%] mt-12" style={mainStyle}>
+    <div class="mx-auto w-[92%] z-20 h-[50%] mt-12" style={mainStyle}>
       <About/>
     </div>
 
     <Title text="Projects" />
 
-    <div id="projects" class="mx-auto w-[90%]">
+    <div id="projects" class="mx-auto w-[92%]">
       <Projects />
     </div>
     
