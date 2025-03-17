@@ -53,8 +53,8 @@ const BoxTwo = () => {
         <div class="bg-[rgb(245,245,247)] w-[50%] flex-1 h-[100%]">
         <br />
         <h1 style={titleStyle} class="mt-10">About Me</h1>
-        <p style={textStyle} class="text-sm p-3">Hi, I'm Tom. I have spent the last 7 years of my life slowly progressing in the world of computer science. Having started with Python, I have since dabbled in all sorts of languages including Arduino for some sketchy mechatronics, Javascript for websites as such and others which have been long forgotten.</p>
-        <p style={textStyle} class="text-sm p-3">Aside from programming, I spend the majority of my time playing rugby for my local club and tennis where the weather allows.</p>
+        <p style={textStyle} class="text-sm p-3 ml-16 mr-16">Hi, I'm Tom. I have spent the last 7 years of my life slowly progressing in the world of computer science. Having started with Python, I have since dabbled in all sorts of languages including Arduino for some sketchy mechatronics, Javascript for websites as such and others which have been long forgotten.</p>
+        <p style={textStyle} class="text-sm p-3 ml-16 mr-16">Aside from programming, I spend the majority of my time playing rugby for my local club and tennis where the weather allows.</p>
         </div>
     
     </div>
