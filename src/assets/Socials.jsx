@@ -4,7 +4,7 @@ import GitHub from "./github.svg"
 import LinkedIn from "./linkedin.svg"
 import Insta from "./insta.svg"
 import CV from "./cv.png"
-import CVPDF from "./TWWebCV.pdf"
+import CVPDF from "./cv.pdf"
 const Socials = () => {
 
 if(isMobile){
