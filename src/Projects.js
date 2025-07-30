@@ -81,7 +81,7 @@ const Projects = () => {
               </a>
               <div style={{ flex: 1 }} />
               <div style={{ color: "#444", fontSize: 14, marginBottom: 16, textAlign: "center", lineHeight: 1.3, fontWeight: 400, maxWidth: 210 }}>
-                Over the course of 6 months I worked on a side project focusing around the problem space of route optimisation. This involved creating genetic algorithms, presenting their solutions, specifying their success, then goal-setting and optimising the approach.
+                Over the course of 6 months, I created a Python Tkinter desktop application focused on creating and optimising school bus routes with the goal of assisting staff who are tasked with making sure over 1000 students can reach school everyday.
               </div>
             </div>
             <div style={{ marginTop: "auto", width: "100%" }}>
@@ -104,7 +104,7 @@ const Projects = () => {
               </a>
               <div style={{ flex: 1 }} />
               <div style={{ color: "#444", fontSize: 14, marginBottom: 16, textAlign: "center", lineHeight: 1.3, fontWeight: 400, maxWidth: 210 }}>
-This article highlights the achievements and gives an overview of the style and success of NBA superstar Nikola Jokic. The report includes statistical analysis and modelling, machine learning techniques and more.</div>
+This article highlights the achievements and gives an overview of the style and success of NBA superstar Nikola Jokic. The report includes statistical analysis, modelling, and machine learning techniques.</div>
             </div>
             <div style={{ marginTop: "auto", width: "100%" }}>
               <div style={{ color: "#888", fontSize: 13, textAlign: "center" }}>Data Science</div>
@@ -124,7 +124,7 @@ This article highlights the achievements and gives an overview of the style and 
               </a>
               <div style={{ flex: 1 }} />
               <div style={{ color: "#444", fontSize: 14, marginBottom: 16, textAlign: "center", lineHeight: 1.3, fontWeight: 400, maxWidth: 210, marginLeft: "auto", marginRight: "auto" }}>
-                Due to my passion for Formula 1, I decided to create an F1 mock draft web app to improve my coding knowledge. The project debates Python and JavaScript decisions, and you can access both via my website.
+                Due to my passion for Formula 1, I decided to create an F1 mock draft web app to improve my coding knowledge. The project merges Python and JavaScript, but I no longer maintain it or host it online having been up for 3 years.
               </div>
             </div>
             <div style={{ marginTop: "auto", width: "100%" }}>
