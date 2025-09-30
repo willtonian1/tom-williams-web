@@ -25,7 +25,6 @@ const FooterLinks = () => (
                 href={require("./ArduinoDartsImages.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ textDecoration: "none", display: "block", margin: "30px auto 18px auto" }}
               >
                 ArduinoDartsImages
               </a>
