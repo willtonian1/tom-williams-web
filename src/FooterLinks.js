@@ -1,6 +1,6 @@
 import React from "react";
 import { GithubIcon, LinkedinIcon } from "./icons";
-
+import { ArduinoImages } from "./ArduinoDartsImages.pdf"
 const FooterLinks = () => (
   <section style={{
     width: "100%",
@@ -21,7 +21,7 @@ const FooterLinks = () => (
       <LinkedinIcon size={28} /> LinkedIn
     </a>
 
-    <a href="ArduinoDartsImages.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontWeight: 600, fontSize: 18, textDecoration: "none", display: "flex", alignItems: "center", gap: 8}}>
+    <a href={ArduinoImages} target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontWeight: 600, fontSize: 18, textDecoration: "none", display: "flex", alignItems: "center", gap: 8}}>
       ArduinoDartsImages
     </a>
 
