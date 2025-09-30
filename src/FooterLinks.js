@@ -27,9 +27,7 @@ const FooterLinks = () => (
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none", display: "block", margin: "30px auto 18px auto" }}
               >
-                <button style={{ background: "#222", color: "#fff", border: 0, borderRadius: 8, padding: "0.3rem 1.2rem", fontWeight: 600, cursor: "pointer", minWidth: 120 }}>
-                  ArduinoDartsImages
-                </button>
+                ArduinoDartsImages
               </a>
 
   </section>
