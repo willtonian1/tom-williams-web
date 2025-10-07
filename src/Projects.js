@@ -115,21 +115,23 @@ This article highlights the achievements and gives an overview of the style and 
           <div style={cardStyle}>
             <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "100%" }}>
               <a
-                href="#"
-                style={{ textDecoration: "none", display: "block", margin: "30px auto 18px auto", pointerEvents: "none", opacity: 0.5 }}
+                href={require("./naturalPatternsFortran.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", display: "block", margin: "30px auto 18px auto" }}
               >
                 <button style={{ background: "#222", color: "#fff", border: 0, borderRadius: 8, padding: "0.3rem 1.2rem", fontWeight: 600, cursor: "not-allowed", minWidth: 120 }}>
-                  Download
+                  Read More
                 </button>
               </a>
               <div style={{ flex: 1 }} />
               <div style={{ color: "#444", fontSize: 14, marginBottom: 16, textAlign: "center", lineHeight: 1.3, fontWeight: 400, maxWidth: 210, marginLeft: "auto", marginRight: "auto" }}>
-                Due to my passion for Formula 1, I decided to create an F1 mock draft web app to improve my coding knowledge. The project merges Python and JavaScript, but I no longer maintain it or host it online having been up for 3 years.
+                Simulated reaction-diffusion systems to create Turing Patterns using the FitzHugh-Nagumo model. 
               </div>
             </div>
             <div style={{ marginTop: "auto", width: "100%" }}>
-              <div style={{ color: "#888", fontSize: 13, textAlign: "center" }}>Web Development</div>
-              <div style={{ fontWeight: 700, fontSize: 18, textAlign: "center" }}>F1 Draft</div>
+              <div style={{ color: "#888", fontSize: 13, textAlign: "center" }}>Fortran</div>
+              <div style={{ fontWeight: 700, fontSize: 18, textAlign: "center" }}>Turing</div>
             </div>
           </div>
         </div>
