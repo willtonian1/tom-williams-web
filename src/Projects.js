@@ -131,7 +131,7 @@ This article highlights the achievements and gives an overview of the style and 
             </div>
             <div style={{ marginTop: "auto", width: "100%" }}>
               <div style={{ color: "#888", fontSize: 13, textAlign: "center" }}>Fortran</div>
-              <div style={{ fontWeight: 700, fontSize: 18, textAlign: "center" }}>Turing</div>
+              <div style={{ fontWeight: 700, fontSize: 18, textAlign: "center" }}>Turing Patterns</div>
             </div>
           </div>
         </div>
