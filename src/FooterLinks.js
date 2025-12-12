@@ -1,6 +1,5 @@
 import React from "react";
 import { GithubIcon, LinkedinIcon } from "./icons";
-import { ArduinoImages } from "./ArduinoDartsImages.pdf"
 const FooterLinks = () => (
   <section style={{
     width: "100%",
