@@ -4,6 +4,7 @@ import HeroImage from "./HeroImage";
 import Projects from "./Projects";
 import Testimonial from "./Testimonial";
 import FooterLinks from "./FooterLinks";
+import YearInReview from "./YearInReview";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <HeroImage />
         <Projects />
         <Testimonial />
+        <YearInReview />
         <FooterLinks />
       </div>
     </div>

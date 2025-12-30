@@ -20,14 +20,6 @@ const FooterLinks = () => (
       <LinkedinIcon size={28} /> LinkedIn
     </a>
 
-    <a
-                href={require("./ArduinoDartsImages.pdf")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ArduinoDartsImages
-              </a>
-
   </section>
 );
 
