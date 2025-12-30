@@ -9,7 +9,6 @@ const YearInReview = () => (
       style={{
         width: "100%",
         maxWidth: 1100,
-        height: 600,
         borderRadius: 0,
         boxShadow: "0 8px 48px 0 rgba(0,0,0,0.35)",
         transition: "max-width 0.3s"
