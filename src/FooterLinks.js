@@ -16,7 +16,7 @@ const FooterLinks = () => (
       <GithubIcon size={28} /> GitHub
     </a>
     
-    <a href="https://www.linkedin.com/in/tom-williams-990536271/" target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontWeight: 600, fontSize: 18, textDecoration: "none", display: "flex", alignItems: "center", gap: 8}}>
+    <a href="https://www.linkedin.com/in/thomas-williams-990536271/" target="_blank" rel="noopener noreferrer" style={{ color: "#0077b5", fontWeight: 600, fontSize: 18, textDecoration: "none", display: "flex", alignItems: "center", gap: 8}}>
       <LinkedinIcon size={28} /> LinkedIn
     </a>
 
